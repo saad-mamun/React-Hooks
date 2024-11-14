@@ -4,6 +4,10 @@ import './App.css'
 import UseEffect from './Components/UseEffect';
 import UseRef from './Components/UseRef';
 import UseMemo from './Components/UseMemo';
+import UseCallback from './Components/UseCallback';
+import Profile from './Components/Profile';
+import Footer from './Components/Footer';
+import UseReduce from './Components/UseReduce';
 
 function App() {
 
@@ -55,6 +59,11 @@ const increaseCount = ()=> {
     <UseEffect/>
     <UseRef/>
     <UseMemo/>
+    <UseCallback/>
+    {/* problem ache profile and footer */}
+    {/* <Profile/>
+    <Footer/> */}
+    <UseReduce/>
     </>
   )
 }
